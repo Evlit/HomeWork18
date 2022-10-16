@@ -1,3 +1,4 @@
+# Представление для жанров
 from flask_restx import Resource, Namespace
 from dao.model.genre import GenreSchema
 from implemented import genre_service

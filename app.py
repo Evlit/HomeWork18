@@ -1,6 +1,5 @@
-# основной файл приложения. здесь конфигурируется фласк, сервисы,
-# SQLAlchemy и все остальное что требуется для приложения.
-# этот файл часто является точкой входа в приложение
+# Домашка 18
+# функция создания основного объекта app
 
 from flask import Flask
 from flask_restx import Api
@@ -11,7 +10,7 @@ from views.director import director_ns
 from views.genre import genre_ns
 from views.movies import movie_ns
 
-# функция создания основного объекта app
+
 
 
 def create_app(config_object):
